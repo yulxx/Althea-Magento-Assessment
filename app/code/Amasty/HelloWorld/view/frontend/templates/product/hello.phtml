@@ -1,0 +1,17 @@
+
+<?php
+	/** * @author Amasty Team * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com) * @package Amasty_HelloWorld */
+?>
+ 
+<div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
+ 
+<h3 class="label"><?= $this->getBlockLabel()?></h3>
+ 
+    <?=__('Hello World');?>
+
+     <!-- echo Mage::getBaseUrl('media') . Mage::getStoreConfig('config_uploads/logo.png');  -->
+
+     <?= $this->getCustomImageUpload()?>
+
+
+</div>
